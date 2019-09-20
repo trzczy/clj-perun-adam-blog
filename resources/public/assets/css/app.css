@@ -1,0 +1,54 @@
+.motto {
+    font-style: italic;
+}
+.decoration {
+    position:relative;}
+.decoration::after {
+content:'';
+background: url('/assets/img/decoration.png');
+background-size: 50%;
+width:222px;
+height: 222px;
+background-repeat: no-repeat;
+position: absolute;
+z-index: -22;
+top: -67px;
+left: -44px;
+}
+h1.menu {margin:0;padding:0;line-height:100%}
+h1.menu {font-size:100%;font-weight:bold;}
+.active {font-weight: bold;}
+.logo {
+    color: #0084b4
+}
+
+Twitter Colour Palette (Hex and RGB)
+Nick Georgiou December 28, 2012  1 Comment
+Share
+1
+Tweet
+Pin
+1
++1
+2
+Share
+SHARES 4
+This is the Twitter colour palette, which contains 5 colours.
+
+
+
+
+/*					  
+292-twitter-dark-blue	Twitter Dark Blue
+Hex: #0084b4
+RGB: 0, 132, 180
+182-twitter-blue	Twitter Logo Blue
+Hex: #00aced
+RGB: 0, 172, 237
+292-twitter-verified-blue	Twitter Verified Blue
+Hex: #1dcaff
+RGB: 29, 202, 255
+292-twitter-background-blue	Twitter Background Blue
+Hex: #c0deed
+RGB: 192, 222, 237
+*/
