@@ -1,0 +1,40 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<title>2019-10-16-post6.html</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" media="all" href="/home/u/Dropbox/cv/README.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="/home/u/Dropbox/clj-perun-adam-blog/resources/public/assets/css/print.css"  />
+</head>
+
+<body>
+
+<p>On the page there are guix commands to work around a Guix config.</p>
+<style>
+img{height: 111px; margin: 22px;}
+h1{margin-top: 100px;}
+</style>
+<p><a href="https://leanpub.com/markdown-mode/read#gfm"><img src="https://i.ibb.co/rsNswv2/iconfinder-markdown-298823.png" title="Read markdown doc" alt="Read markdown doc" /></a> <a href="http://guix.gnu.org/"><img src="http://dustycloud.org/misc/talks/guix/chicagolug_2015/static/guixsd-logo-lighttext.png" title="GuixSD" alt="GuixSD" /></a></p>
+<hr />
+<h1 id="system-reconfigure">system reconfigure</h1>
+<hr />
+<p>The first time:</p>
+<p><code>ln -s ~/guix ~/.config/guix/latest</code></p>
+<p>Then:</p>
+<p><code>sudo -E guix system reconfigure /etc/config.scm</code></p>
+<p><a href="https://github.com/yenda/guix-config" title="Guix reconfigure">source: Yenda</a></p>
+<h1 id="system-init">system init</h1>
+<hr />
+<p><code>herd start cow-store /mnt</code> <code>guix system init /mnt/etc/config.scm /mnt</code></p>
+<h1 id="pull-and-reconfigure-by-guix-tutorial">Pull and reconfigure by Guix tutorial</h1>
+<hr />
+<p><code>guix pull</code></p>
+<p><code>sudo guix system reconfigure /etc/config.scm</code></p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><p><a href="https://guix.gnu.org/manual/en/html_node/Proceeding-with-the-Installation.html#Proceeding-with-the-Installation" title="Install Guix">source 1: Guix</a></p></li>
+<li><p><a href="https://guix.gnu.org/manual/en/html_node/After-System-Installation.html#After-System-Installation" title="After the installation">source 2: Guix</a></p></li>
+</ul>
+
+</body>
+</html>

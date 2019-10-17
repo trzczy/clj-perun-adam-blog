@@ -22,7 +22,9 @@
    [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
    (include-css
     "/assets/css/foundation.css"
-    "/assets/css/app.css")
+    "/assets/css/app.css"
+    "/assets/css/print.css"
+    )
    [:meta {:class "foundation-mq"}]])
 
 (defn header [meta feat]
@@ -46,7 +48,11 @@
       [:li [:button.button {:type "button"} "Search"]]]]]
    [:div.row
     [:div.columns
-     [:p.motto.decoration "For those about to code"]]]])
+     [:p.motto.decoration "For those about to code"]]]
+   [:div.row
+    [:div.columns
+     [:button.button.float-right {:onclick "window.print();"} "Print this Page"]]]
+   ])
 
 (defn scripts []
   (list
