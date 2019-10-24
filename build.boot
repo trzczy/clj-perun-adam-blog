@@ -53,6 +53,7 @@
 ;;        (perun/atom-feed :filterer :original)
         (perun/print-meta)
         (target)
+        (perun/highlight)
         (notify))))
 
 ;;(deftask build

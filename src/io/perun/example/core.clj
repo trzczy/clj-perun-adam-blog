@@ -24,6 +24,7 @@
     "/assets/css/foundation.css"
     "/assets/css/app.css"
     "/assets/css/print.css"
+    "/assets/css/pygments-css-master/borland.css"
     )
    [:meta {:class "foundation-mq"}]])
 

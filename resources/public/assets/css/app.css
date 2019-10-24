@@ -53,3 +53,15 @@ RGB: 192, 222, 237
 table {
     border: 1px solid LightGrey;
 }
+
+
+pre {
+  background-color: #efefef;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  }
+
+code {
+  border: initial;
+  background-color: initial;
+}
