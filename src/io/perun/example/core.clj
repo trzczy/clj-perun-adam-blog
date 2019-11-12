@@ -11,7 +11,7 @@
 (defn date-formatted [date-published]
   (f/unparse (f/formatter "dd MMM yyyy") (c/from-date date-published)))
 (defn head
-  [meta & [page]]
+  [meta & [page type]]
   [:head
    [:meta {:charset "utf-8"}]
    [:meta
@@ -21,11 +21,16 @@
    [:title (str (:site-title meta) " | " (if page page "page"))]
    [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
    (include-css
-    "/assets/css/foundation.css"
-    "/assets/css/app.css"
-    "/assets/css/print.css"
-    "/assets/css/pygments-css-master/borland.css"
-    )
+     "/assets/css/foundation.css"
+     "/assets/css/app.css"
+     "/assets/css/print.css"
+     "/assets/css/pygments-css-master/borland.css"
+   )
+   (if
+     (= type :post)
+     [:link {:rel "stylesheet" :media "all" :href "/assets/css/tty.css"}]
+;;     [:link {:rel "stylesheet" :media "tty" :href "/assets/css/tty.css"}]
+   )
    [:meta {:class "foundation-mq"}]])
 
 (defn header [meta feat]

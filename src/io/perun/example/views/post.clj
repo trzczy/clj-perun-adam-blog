@@ -7,9 +7,10 @@
 (defn render [{meta :meta posts :entries post :entry}]
   (bw/beautify-html
   (html5 {:lang "en" :itemtype "http://schema.org/Blog"}
-         (core/head meta (:title post))
+         (core/head meta (:title post) :post)
          [:body
 
+;;[:pre post]
 ;;[:pre (:permalink post)]
 
           (core/header meta {:site-title (:title post) :h1-menu-item :out-of-menu :active :out-of-menu :logo :site})

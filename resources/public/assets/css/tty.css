@@ -1,0 +1,8 @@
+* {
+  min-height:0;
+  overflow: hidden;
+}
+a,time,h1,h2,header,p {
+  display:none;
+}
+pre {border:none; background:none;}

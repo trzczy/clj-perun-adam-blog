@@ -1,5 +1,5 @@
 {:base-url "/" ;"http://example.perun.io/"
-:site-title "Trzczy"
+ :site-title "Trzczy"
  :description "Code snippets and commands"
  :menu-base (:site :home :tags :about :contact)
  :add-all-menu-data
@@ -7,4 +7,6 @@
   :tags {:href "/tagindex.html"}
   :home {:href "/" :title "glab.ga"}
   :about {}
-  :contact {}}}
+  :contact {}}
+
+}
