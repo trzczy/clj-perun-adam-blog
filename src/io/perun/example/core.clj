@@ -28,8 +28,8 @@
    )
    (if
      (= type :post)
-     [:link {:rel "stylesheet" :media "all" :href "/assets/css/tty.css"}]
-;;     [:link {:rel "stylesheet" :media "tty" :href "/assets/css/tty.css"}]
+;;     [:link {:rel "stylesheet" :media "all" :href "/assets/css/tty.css"}]
+     [:link {:rel "stylesheet" :media "tty" :href "/assets/css/tty.css"}]
    )
    [:meta {:class "foundation-mq"}]])
 
