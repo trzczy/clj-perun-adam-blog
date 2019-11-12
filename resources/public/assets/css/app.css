@@ -1,3 +1,10 @@
+
+code {
+  padding: 0.125rem 0.3125rem 0.0625rem 0;
+  border: initial;
+  background-color: initial;
+ }
+
 .motto {
     font-style: italic;
 }

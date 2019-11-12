@@ -1,0 +1,17 @@
+ Content
+
+Run a script for a text mode:
+
+l="firmware-misc-nonfree wget git emacs"
+for a in $l; do sudo apt -qy install $a; done
+
+Run a script for GUI:
+
+l="lightdm xfce4 xfce4-goodies xfce4-pulseaudio-plugin"
+l2="thunar xfdesktop4 xfwm4 xfce4-panel xfce4-settings"
+l3="xfce4-linelight-plugin xfce4-mailwatch-plugin"
+for a in $l $l2 $l3; do sudo apt -qy install $a; done
+
+ Source
+
+Debian 9 (XFCE) minimal install - need help
