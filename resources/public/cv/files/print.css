@@ -1,0 +1,25 @@
+@media print {
+    .no-print,
+    h1,
+    button,
+    header:not(.print), 
+    article .row:nth-child(1),
+    article .row:nth-child(2),
+    article .row:nth-child(4) {
+	font-size: 0;
+	width: 1px;
+	height: 1px;
+	display: inline-block;
+	overflow: hidden;
+	position: absolute!important;
+	border: 0!important;
+	padding: 0!important;
+	margin: 0!important;
+	clip: rect(1px,1px,1px,1px);
+    }
+    
+    footer, header, body, table, td, p {
+	border: initial;
+	outline: initial;
+    }
+} 

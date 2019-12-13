@@ -1,0 +1,124 @@
+*:not(ul) {
+    padding:0;
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    border:0;
+}
+footer, header, body, table {
+    min-width:900px;
+    max-width:900px;
+}
+
+/* OUTLINE */
+header, footer, body, table, td, p {
+    outline: 2px dotted yellow;
+}
+/* OUTLINE END */
+
+table {
+    margin-bottom:12px;
+}
+h2 {
+    margin-top:12px;
+    margin-bottom:12px;
+}
+table, body {
+    font-size: 20px;
+}
+/* footer */
+body{ 
+    display:flex; 
+    flex-direction:column;
+    min-height:1260px;
+}
+footer{
+    margin:auto 0 0;
+}
+/*ok?*/
+.low {
+    line-height:33px;
+}
+ul {
+    margin-top: 5px;
+}
+
+header {
+    height: 300px;
+}
+footer {
+    height: 68px;
+}
+.image {
+    display:inline-block;
+    height:286px;
+    width:193px;
+    background: #ffffff url("amazurkiewicz922-kolnierz.png") no-repeat center center /  100%;
+}
+header td {
+    padding: 0 10px;
+}
+
+header {
+    min-width:900px;
+    max-width:900px;
+    min-height:300px;
+    max-height:300px;
+}
+
+header, header table, header td {
+    border:initial;
+}
+
+
+
+.address {
+    line-height: 24px;
+    font-size: 18px;
+}
+.address .mail {
+    font-size:14px;
+}
+.cv > span > span {
+    font-size:35px;
+}
+.cv > span {
+    border-right: 4px solid gray;
+    font-size:85px;
+}
+.cv {
+    padding-right:0px;
+}
+.name {
+    font-size:41px;
+    padding-left:10px;
+    padding-right:0;
+    height:65px;
+    margin-top:30px;
+    line-height:45px;
+}
+.cv, .name {
+    padding-top:35px;
+}
+
+
+.motto {
+    padding:0;
+    
+    min-width:100%;
+    max-width:100%;
+    min-height:40px;
+    max-height:40px;
+}
+
+.motto p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+}
+
+button {
+    max-width: 111px;
+}
