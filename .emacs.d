@@ -1,1 +1,1 @@
-/home/u/Dropbox/init/.emacs.d2
+/home/u/Dropbox/init/.emacs.d.md/
