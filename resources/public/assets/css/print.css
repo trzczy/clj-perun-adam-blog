@@ -1,7 +1,8 @@
 @media print {
     .no-print,
     h1,
-    header, 
+    button,
+    header:not(.print), 
     article .row:nth-child(1),
     article .row:nth-child(2),
     article .row:nth-child(4) {
@@ -17,7 +18,8 @@
 	clip: rect(1px,1px,1px,1px);
     }
     
-    table {
+    footer, header, body, table, td, p {
 	border: initial;
+	outline: initial;
     }
 } 
